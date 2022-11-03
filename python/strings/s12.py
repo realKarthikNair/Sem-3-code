@@ -10,6 +10,6 @@ for i in range(len(s1)):
     e-=1
 
 if len(s2)>len(s1):
-    s3+=s2[0:len(s2)-len(s1)]
-    
+    s3+=s2[0:e+1]
+
 print(s3)
