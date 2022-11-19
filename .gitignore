@@ -1,3 +1,6 @@
 .vscode/
 freind*
 static*
+*.odt
+*.cpp
+C_plus_plus/
