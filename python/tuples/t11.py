@@ -4,6 +4,10 @@ Original tuple:
 Convert the said tuple of positive integers into an integer:
 102040570'''
 
-t=(10, 20, 40, 5, 70)
-print(int("".join(map(str,t)))) 
+def get_number_from_tuple(t):
+    try:
+        return int("".join(map(str,t)))
+    except (TypeError, ValueError):
+        return 0
 
+print(get_number_from_tuple((10, 20, 40, 5, 70)))
