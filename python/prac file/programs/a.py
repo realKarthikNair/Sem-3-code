@@ -1,4 +1,4 @@
-"""    1. Write a program to print the following pattern using a loop.
+"""Write a program to print the following pattern using a loop.
     1
    212
   32123

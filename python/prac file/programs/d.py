@@ -1,5 +1,4 @@
-'''QN 4
-Write a program to sort a tuple of tuples by 2nd item.
+'''Write a program to sort a tuple of tuples by 2nd item.
 Sample:
 ((‘r’,3),(‘t’,1),(‘e’,2),(‘y’,9))
 Expected Output: ((‘t’,1),(‘e’,2),(‘r’,3),(‘y’,9))'''
